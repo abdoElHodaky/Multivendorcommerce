@@ -1,5 +1,5 @@
 FROM richarvey/nginx-php-fpm:1.9.1
-RUN apk add -U --no-cache nghttp2-dev nodejs npm unzip maria-dev maria sqlite sqlite-dev
+RUN apk add -U --no-cache nghttp2-dev nodejs npm unzip mariadb-dev mariadb sqlite sqlite-dev
 COPY . .
 
 
