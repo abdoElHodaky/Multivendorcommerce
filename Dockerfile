@@ -12,7 +12,7 @@ ENV REAL_IP_HEADER 1
 
 # Laravel config
 ENV APP_KEY base64:Yd+MjU37SbzJUwEFde45nGTAT9KgWNmqkDrb/iFVG3U=
-ENV APP_ENV production
+ENV APP_ENV development 
 ENV APP_DEBUG true
 ENV LOG_CHANNEL stderr
 EXPOSE 8080/tcp 8000/tcp
