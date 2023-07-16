@@ -8,6 +8,7 @@ ENV WEBROOT /var/www/html/public
 ENV PHP_ERRORS_STDERR 1
 ENV RUN_SCRIPTS 1
 ENV REAL_IP_HEADER 1
+RUN chmod -R 755
 
 # Laravel config
 ENV APP_ENV production
@@ -19,5 +20,5 @@ ENV COMPOSER_ALLOW_SUPERUSER 1
 ENV NODEJS_ALLOW_SUPERUSER 1
 ENV NPM_ALLOW_SUPERUSER 1
 EXPOSE 8080
-CMD ["sudo","./start.sh"]
+CMD ["sh","./start.sh"]
 
