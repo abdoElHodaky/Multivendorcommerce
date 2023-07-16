@@ -19,13 +19,6 @@ ENV LOG_CHANNEL stderr
 ENV COMPOSER_ALLOW_SUPERUSER 1
 ENV NODEJS_ALLOW_SUPERUSER 1
 ENV NPM_ALLOW_SUPERUSER 1
-RUN rm yarn.lock
-RUN rm package-lock.json
-RUN npm install -g mix
-RUN npm install --package-lock-only
-ENV YARN_ALLOW_SUPERUSER 1
-ENV NPX_ALLOW_SUPERUSER 1
-RUN npm audit fix --force
-RUN npm run production
+Expose 8000
 CMD ["/start.sh"]
 
