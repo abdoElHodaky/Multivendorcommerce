@@ -52,7 +52,7 @@
         ],
         "post-install-cmd": [
             
-            "php artisan migrate:fresh --seed "
+            "php artisan migrate:refresh --seed"
             
         ]
     },
