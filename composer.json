@@ -51,7 +51,7 @@
             "@php artisan key:generate --ansi"
         ],
         "post-install-cmd": [
-            "php artisan db:wipe --drop-types --force",
+            
             "php artisan migrate:fresh --seed "
             
         ]
