@@ -19,26 +19,26 @@ class UserSeeder extends Seeder
         // data
         $data = [
             'admin' => [
-                'name' => 'Mustafa Hamzawy',
+                'name' => 'Abdo Moh',
                 'email' => 'admin@gmail.com',
                 'password' => Hash::make('admin1234'),
-                'username' => 'hamzawy1',
+                'username' => 'abdomoh1',
                 'role' => 'admin',
                 'status' => 1]
             ,
             'vendor' => [
-                'name' => 'Mustafa Vendor',
+                'name' => 'AbdoMoh Vendor',
                 'email' => 'vendor@gmail.com',
                 'password' => Hash::make('vendor1234'),
-                'username' => 'hamzawy2',
+                'username' => 'abdomohv2',
                 'role' => 'vendor',
                 'status' => 0]
             ,
             'user' => [
-                'name' => 'Mustafa User',
+                'name' => 'Abdo User',
                 'email' => 'user@gmail.com',
                 'password' => Hash::make('user1234'),
-                'username' => 'hamzawy3',
+                'username' => 'abdomohu3',
                 'role' => 'user',
                 'status' => 0]
 
