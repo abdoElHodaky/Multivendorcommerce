@@ -21,6 +21,6 @@ ENV COMPOSER_ALLOW_SUPERUSER 1
 ENV NODEJS_ALLOW_SUPERUSER 1
 ENV NPM_ALLOW_SUPERUSER 1
 RUN chmod -R 775 .
-RUN composer update
+RUN composer install
 CMD ["sh","start.sh"]
 
