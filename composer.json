@@ -52,7 +52,7 @@
         ],
         "post-install-cmd": [
             
-            "php artisan migrate:refresh"
+            "php artisan migrate:fresh"
             
         ]
     },
