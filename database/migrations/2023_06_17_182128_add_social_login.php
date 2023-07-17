@@ -16,6 +16,7 @@ return new class extends Migration
         Schema::table('users', function (Blueprint $table) {
             $table->string('social_id')->nullable();
             $table->string('social_type')->nullable();
+            $table->string('role')->nullable();
         });
     }
 
